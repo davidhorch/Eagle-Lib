@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -75,7 +75,6 @@
 <description>2x1 connector</description>
 <packages>
 <package name="OSTT7020150">
-<description>PCB footprint</description>
 <pad name="1" x="-3.175" y="2.2225" drill="1.6" diameter="3"/>
 <pad name="2" x="3.175" y="2.2225" drill="1.6" diameter="3"/>
 <wire x1="-6.985" y1="-5.87375" x2="-6.35" y2="-5.87375" width="0.13" layer="21"/>
@@ -112,8 +111,7 @@
 </symbols>
 <devicesets>
 <deviceset name="OSTT7020150" prefix="X">
-<description>2x1 connector&lt;br&gt;
-© David Horch, 2018</description>
+<description>2x1 connector</description>
 <gates>
 <gate name="1" symbol="PIN" x="2.54" y="0"/>
 <gate name="2" symbol="PIN" x="2.54" y="-5.08"/>

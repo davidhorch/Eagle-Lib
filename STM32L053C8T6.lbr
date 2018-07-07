@@ -294,9 +294,7 @@
 <devicesets>
 <deviceset name="STM32L053C8" prefix="IC">
 <description>32 Bit Cortex M0+ Microcontroller&lt;br&gt;
-This Part will also work for other variants of STM32L053.&lt;br&gt;
-&lt;br&gt;
-© David Horch</description>
+This Part will also work for other variants of STM32L053 and even other Lines of µC from ST.</description>
 <gates>
 <gate name="A" symbol="STM32L053C8_GPIOA" x="-55.88" y="15.24"/>
 <gate name="B" symbol="STM32L053C8_GPIOB" x="-30.48" y="15.24"/>
