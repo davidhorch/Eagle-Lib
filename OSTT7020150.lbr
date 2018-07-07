@@ -72,6 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>2x1 connector</description>
 <packages>
 <package name="OSTT7020150">
 <description>PCB footprint</description>
