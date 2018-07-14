@@ -261,7 +261,9 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SW-ADAPTER" prefix="X">
+<deviceset name="SW-ADAPTER-SWV" prefix="X">
+<description>Adapter mit SWV.&lt;br&gt;
+Zur Verfügung steht der von ST vorgesehene 20 Pin Header und alternativ ein 10 Pin Header von Samtec mit eigener Belegung. Als passendes Programmerkabel kann &lt;b&gt;FFSD-05-D-06.00-01-N&lt;/b&gt; von Samtec benutzt werden.</description>
 <gates>
 <gate name="A" symbol="SWD" x="0" y="0"/>
 </gates>
@@ -276,7 +278,10 @@
 <connect gate="A" pin="VDD" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Samtec" constant="no"/>
+<attribute name="MPN" value="SHF-105-01-L-D-SM" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="STANDARD" package="CON20">
@@ -289,13 +294,19 @@
 <connect gate="A" pin="VDD" pad="1 2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Molex" constant="no"/>
+<attribute name="MPN" value="1392410" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="SW-ADAPTER-WO-SWV" prefix="X">
-<description>Adapter ohne SWV. Nutzt 0532610571 von Molex. Als Kabel kann 0151340501 verwendet werden.</description>
+<description>Adapter ohne SWV.&lt;br&gt;
+Nutzt &lt;b&gt;0532610571&lt;/b&gt; von Molex. Als Kabel kann &lt;b&gt;0151340501&lt;/b&gt; verwendet werden.
+&lt;br&gt;
+&lt;font color=red&gt;&lt;b&gt;Aktuell noch keine verifizierte Funktionalität&lt;/b&gt;&lt;/font&gt;</description>
 <gates>
 <gate name="A" symbol="SWDWSWV" x="0" y="0"/>
 </gates>
@@ -309,7 +320,10 @@
 <connect gate="A" pin="VDD" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="Molex" constant="no"/>
+<attribute name="MPN" value="0532610571" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
