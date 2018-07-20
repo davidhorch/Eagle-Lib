@@ -302,11 +302,11 @@ Zur Verfügung steht der von ST vorgesehene 20 Pin Header und alternativ ein 10 
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW-ADAPTER-WO-SWV" prefix="X">
+<deviceset name="SW-ADAPTER-5PIN-TARGET" prefix="X">
 <description>Adapter ohne SWV.&lt;br&gt;
 Nutzt &lt;b&gt;0532610571&lt;/b&gt; von Molex. Als Kabel kann &lt;b&gt;0151340501&lt;/b&gt; verwendet werden.
 &lt;br&gt;
-&lt;font color=red&gt;&lt;b&gt;Aktuell noch keine verifizierte Funktionalität&lt;/b&gt;&lt;/font&gt;</description>
+&lt;font color=red&gt;&lt;b&gt;Dieser Connector wird am Target verwendet.&lt;/b&gt;&lt;/font&gt;</description>
 <gates>
 <gate name="A" symbol="SWDWSWV" x="0" y="0"/>
 </gates>
@@ -318,6 +318,32 @@ Nutzt &lt;b&gt;0532610571&lt;/b&gt; von Molex. Als Kabel kann &lt;b&gt;015134050
 <connect gate="A" pin="SWCLK" pad="2"/>
 <connect gate="A" pin="SWDIO" pad="4"/>
 <connect gate="A" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Molex" constant="no"/>
+<attribute name="MPN" value="0532610571" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SW-ADAPTER-5PIN-PROGRAMMER" prefix="X">
+<description>Adapter ohne SWV.&lt;br&gt;
+Nutzt &lt;b&gt;0532610571&lt;/b&gt; von Molex. Als Kabel kann &lt;b&gt;0151340501&lt;/b&gt; verwendet werden.
+&lt;br&gt;
+&lt;font color=red&gt;&lt;b&gt;Dieser Connector wird am Programmer verwendet.&lt;/b&gt;&lt;/font&gt;</description>
+<gates>
+<gate name="A" symbol="SWDWSWV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="53261-05">
+<connects>
+<connect gate="A" pin="!RESET" pad="5"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="SWCLK" pad="4"/>
+<connect gate="A" pin="SWDIO" pad="2"/>
+<connect gate="A" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
