@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -118,6 +118,25 @@
 <text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-5.8166" y="-2.3114" radius="0.3" width="0" layer="21"/>
 </package>
+<package name="PINHEAD2X4">
+<smd name="1" x="-3.81" y="-2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="3" x="-1.27" y="-2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="5" x="1.27" y="-2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="7" x="3.81" y="-2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="2" x="-3.81" y="2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="4" x="-1.27" y="2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="6" x="1.27" y="2.54" dx="1.02" dy="1.78" layer="1"/>
+<smd name="8" x="3.81" y="2.54" dx="1.02" dy="1.78" layer="1"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.13" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.13" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.13" layer="21"/>
+<circle x="-5.715" y="-3.175" radius="0.3" width="0" layer="21"/>
+<hole x="-2.54" y="0" drill="1.8"/>
+<hole x="2.54" y="0" drill="1.8"/>
+<text x="-4.445" y="-5.715" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.445" y="4.1275" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X04" urn="urn:adsk.eagle:package:22461/2" locally_modified="yes" type="model">
@@ -176,6 +195,32 @@
 <technology name="">
 <attribute name="MFG" value="Preci-Dip" constant="no"/>
 <attribute name="MPN" value="803-87-008-10-012101" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRF24L01+-SMDPH" prefix="X">
+<gates>
+<gate name="A" symbol="NRF24L01+" x="-17.78" y="-10.16"/>
+<gate name="S" symbol="SUPPLY" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="PINHEAD2X4">
+<connects>
+<connect gate="A" pin="!CS" pad="4"/>
+<connect gate="A" pin="!IRQ" pad="8"/>
+<connect gate="A" pin="CE" pad="3"/>
+<connect gate="A" pin="MISO" pad="7"/>
+<connect gate="A" pin="MOSI" pad="6"/>
+<connect gate="A" pin="SCK" pad="5"/>
+<connect gate="S" pin="VDD" pad="2"/>
+<connect gate="S" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Harwin" constant="no"/>
+<attribute name="MPN" value="M20-7810445" constant="no"/>
 </technology>
 </technologies>
 </device>

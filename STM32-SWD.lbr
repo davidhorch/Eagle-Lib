@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25,18 +25,18 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -47,18 +47,18 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
@@ -71,8 +71,8 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Dummy" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Supply" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Dummy" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Supply" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
 <description>Verschiedene mechanische Verbinder für STM32-SWD-Programmer</description>
@@ -230,6 +230,53 @@
 <rectangle x1="2.25" y1="1" x2="2.75" y2="1.875" layer="21"/>
 <circle x="6.35" y="-2.54" radius="0.3" width="0" layer="21"/>
 </package>
+<package name="CON20-EDGE">
+<text x="0" y="6.35" size="1.778" layer="25" ratio="10" align="center">&gt;NAME</text>
+<smd name="2" x="-11.43" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="4" x="-8.89" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="6" x="-6.35" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="8" x="-3.81" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="10" x="-1.27" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="12" x="1.27" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="14" x="3.81" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="16" x="6.35" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="18" x="8.89" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="20" x="11.43" y="2.54" dx="1" dy="4" layer="1" cream="no"/>
+<smd name="1" x="-11.43" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="3" x="-8.89" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="5" x="-6.35" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="7" x="-3.81" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="9" x="-1.27" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="11" x="1.27" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="13" x="3.81" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="15" x="6.35" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="17" x="8.89" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<smd name="19" x="11.43" y="2.54" dx="1" dy="4" layer="16" cream="no"/>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="-15.24" y1="-8.89" x2="15.24" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="15.24" y1="-8.89" x2="15.24" y2="0" width="0.127" layer="51"/>
+<wire x1="15.24" y1="0" x2="-15.24" y2="0" width="0.127" layer="51"/>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="-8.89" width="0.127" layer="52"/>
+<wire x1="-15.24" y1="-8.89" x2="-2.54" y2="-8.89" width="0.127" layer="52"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-5.08" width="0.127" layer="52"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="52"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-8.89" width="0.127" layer="52"/>
+<wire x1="2.54" y1="-8.89" x2="15.24" y2="-8.89" width="0.127" layer="52"/>
+<wire x1="15.24" y1="-8.89" x2="15.24" y2="0" width="0.127" layer="52"/>
+<wire x1="15.24" y1="0" x2="-15.24" y2="0" width="0.127" layer="52"/>
+<polygon width="0.127" layer="52">
+<vertex x="-12.7" y="-1.27"/>
+<vertex x="-13.335" y="-3.175"/>
+<vertex x="-12.065" y="-3.175"/>
+</polygon>
+<wire x1="-15.24" y1="0.635" x2="-15.24" y2="5.08" width="0.13" layer="21"/>
+<wire x1="-15.24" y1="5.08" x2="15.24" y2="5.08" width="0.13" layer="21"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="0.635" width="0.13" layer="21"/>
+<wire x1="-15.24" y1="5.08" x2="15.24" y2="5.08" width="0.13" layer="22"/>
+<wire x1="-15.24" y1="0.635" x2="-15.24" y2="5.08" width="0.13" layer="22"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="0.635" width="0.13" layer="22"/>
+<circle x="-13.0175" y="3.81" radius="0.3" width="0" layer="22"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWD">
@@ -300,6 +347,22 @@ Zur Verfügung steht der von ST vorgesehene 20 Pin Header und alternativ ein 10 
 </technology>
 </technologies>
 </device>
+<device name="" package="CON20-EDGE">
+<connects>
+<connect gate="A" pin="!RESET" pad="15"/>
+<connect gate="A" pin="GND" pad="3 4 5 6 8 10 12 14 16 18 20"/>
+<connect gate="A" pin="SWCLK" pad="9"/>
+<connect gate="A" pin="SWDIO" pad="7"/>
+<connect gate="A" pin="SWV" pad="13"/>
+<connect gate="A" pin="VDD" pad="1 2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Molex" constant="no"/>
+<attribute name="MPN" value="1392410" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SW-ADAPTER-5PIN-TARGET" prefix="X">
@@ -314,7 +377,7 @@ Nutzt &lt;b&gt;0532610571&lt;/b&gt; von Molex. Als Kabel kann &lt;b&gt;015134050
 <device name="" package="53261-05">
 <connects>
 <connect gate="A" pin="!RESET" pad="1"/>
-<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="GND" pad="3 S1 S2" route="any"/>
 <connect gate="A" pin="SWCLK" pad="2"/>
 <connect gate="A" pin="SWDIO" pad="4"/>
 <connect gate="A" pin="VDD" pad="5"/>

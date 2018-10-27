@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<description>Kasten Kunststoff, ABS Schwarz Handformat, einschl. Abdeckung L x B: 2,608" x 2,608" (66,24 mm x 66,24 mm) X 1,083" (27,51 mm)</description>
+<packages>
+<package name="CASING">
+<wire x1="0" y1="40.5384" x2="0" y2="57.6072" width="0" layer="20"/>
+<wire x1="1.6256" y1="59.0804" x2="57.404" y2="59.0804" width="0" layer="20"/>
+<wire x1="59.0296" y1="57.6072" x2="59.0296" y2="40.5384" width="0" layer="20"/>
+<wire x1="59.0296" y1="40.5384" x2="54.5084" y2="40.5384" width="0" layer="20"/>
+<wire x1="54.5084" y1="34.036" x2="59.0296" y2="34.036" width="0" layer="20"/>
+<wire x1="59.0296" y1="34.036" x2="59.0296" y2="1.6256" width="0" layer="20"/>
+<wire x1="57.5564" y1="0" x2="1.6256" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="1.4732" x2="0" y2="34.036" width="0" layer="20"/>
+<wire x1="0" y1="34.036" x2="4.5212" y2="34.036" width="0" layer="20"/>
+<wire x1="4.5212" y1="40.5384" x2="0" y2="40.5384" width="0" layer="20"/>
+<wire x1="0" y1="57.6072" x2="1.6256" y2="59.0804" width="0" layer="20" curve="-90"/>
+<wire x1="59.0296" y1="57.6072" x2="57.404" y2="59.0804" width="0" layer="20" curve="90"/>
+<wire x1="57.5564" y1="0" x2="59.0296" y2="1.6256" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="1.4732" x2="1.6256" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="4.5212" y1="40.5384" x2="4.5212" y2="34.036" width="0" layer="20" curve="-180"/>
+<wire x1="54.5084" y1="40.5384" x2="54.5084" y2="34.036" width="0" layer="20" curve="180"/>
+<hole x="43.5356" y="15.5448" drill="3.2"/>
+<hole x="15.5448" y="15.5448" drill="3.2"/>
+<hole x="15.5448" y="43.5356" drill="3.2"/>
+<hole x="43.5356" y="43.5356" drill="3.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1593JBK">
+<wire x1="-30.099" y1="10.8204" x2="-30.099" y2="27.8892" width="0.1524" layer="94"/>
+<wire x1="-28.4734" y1="29.3624" x2="27.305" y2="29.3624" width="0.1524" layer="94"/>
+<wire x1="28.9306" y1="27.8892" x2="28.9306" y2="10.8204" width="0.1524" layer="94"/>
+<wire x1="28.9306" y1="10.8204" x2="24.4094" y2="10.8204" width="0.1524" layer="94"/>
+<wire x1="24.4094" y1="4.318" x2="28.9306" y2="4.318" width="0.1524" layer="94"/>
+<wire x1="28.9306" y1="4.318" x2="28.9306" y2="-28.0924" width="0.1524" layer="94"/>
+<wire x1="27.4574" y1="-29.718" x2="-28.4734" y2="-29.718" width="0.1524" layer="94"/>
+<wire x1="-30.099" y1="-28.2448" x2="-30.099" y2="4.318" width="0.1524" layer="94"/>
+<wire x1="-30.099" y1="4.318" x2="-25.5778" y2="4.318" width="0.1524" layer="94"/>
+<wire x1="-25.5778" y1="10.8204" x2="-30.099" y2="10.8204" width="0.1524" layer="94"/>
+<wire x1="-30.099" y1="27.8892" x2="-28.4734" y2="29.3624" width="0.1524" layer="94" curve="-90"/>
+<wire x1="28.9306" y1="27.8892" x2="27.305" y2="29.3624" width="0.1524" layer="94" curve="90"/>
+<wire x1="27.4574" y1="-29.718" x2="28.9306" y2="-28.0924" width="0.1524" layer="94" curve="90"/>
+<wire x1="-30.099" y1="-28.2448" x2="-28.4734" y2="-29.718" width="0.1524" layer="94" curve="90"/>
+<wire x1="-25.5778" y1="10.8204" x2="-25.5778" y2="4.318" width="0.1524" layer="94" curve="-180"/>
+<wire x1="24.4094" y1="10.8204" x2="24.4094" y2="4.318" width="0.1524" layer="94" curve="180"/>
+<circle x="-14.5542" y="13.8176" radius="1.634503125" width="0.1524" layer="94"/>
+<circle x="13.4366" y="13.8176" radius="1.634503125" width="0.1524" layer="94"/>
+<circle x="-14.5542" y="-14.1732" radius="1.634503125" width="0.1524" layer="94"/>
+<circle x="13.4366" y="-14.1732" radius="1.634503125" width="0.1524" layer="94"/>
+<text x="0" y="0" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="22.86" y="-25.4" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1593JBK" prefix="M">
+<description>Kasten Kunststoff, ABS Schwarz Handformat, einschl. Abdeckung L x B: 2,608" x 2,608" (66,24 mm x 66,24 mm) X 1,083" (27,51 mm)</description>
+<gates>
+<gate name="A" symbol="1593JBK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CASING">
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Hammond Manufacturing" constant="no"/>
+<attribute name="MPN" value="1593JBK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
